@@ -72,7 +72,16 @@ function App() {
         {result && (
           <Button
             onClick={handleResult}
-            style="bg-orange-300 px-10 py-2 rounded hover:bg-orange-400 mt-3"
+            style={{
+              backgroundColor: "orange",
+              padding: "10px",
+              paddingLeft: "20px",
+              paddingRight: "20px",
+              borderRadius: "5px",
+              cursor: "pointer",
+              color: "white",
+              marginTop: "3px",
+            }}
           >
             Show Results
           </Button>
@@ -80,7 +89,15 @@ function App() {
         {start && (
           <Button
             onClick={handleStart}
-            style="bg-orange-300 px-10 py-2 rounded hover:bg-orange-400"
+            style={{
+              backgroundColor: "orange",
+              padding: "10px",
+              paddingLeft: "20px",
+              paddingRight: "20px",
+              borderRadius: "5px",
+              cursor: "pointer",
+              color: "white",
+            }}
           >
             Start Quiz
           </Button>
